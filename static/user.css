@@ -1,0 +1,183 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    min-height:87vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://www.bajajfinservmarkets.in/discover/wp-content/uploads/2022/02/MicrosoftTeams-image-4-1024x543.png");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    color:white; 
+}
+
+#head{
+    text-align: center;
+    padding:10px;
+    font-size:32px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items:center;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+    height:20px;
+}
+
+.nav-links ul li a{
+    color:rgb(235, 232, 232);
+    text-decoration: none;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#transaction{
+    font-size:24px;
+}
+
+.budget{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7%;
+    align-items:center;
+    margin:0px;
+}
+
+.inc-exp{
+    display:flex;
+    margin:0px;
+    padding: 0px;;
+}
+
+.inc-exp .inc{
+    margin-right:9%;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(79, 79, 106);
+    width:50%;
+}
+
+.inc-exp .exp{
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(79, 79, 106);
+    width:50%;
+}
+
+.balance{
+    padding:30px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(79, 79, 106);
+}
+
+.inc-exp #expense,#income,.money-plus,.money-minus{
+    text-align: center;
+    padding:10px;
+}
+
+.container{
+    width:20%;
+    height:2vh;
+    border-radius: 5px;
+    margin:80px 70px;
+    padding:0px;  
+}
+
+.container form .form-group {
+    font-size: 16px;
+    background-color: rgb(79, 79, 106);
+    border-radius: 9px;
+    padding:10px;
+}
+
+.container form .form-group input{
+    width:90%;
+    margin:13px;
+}
+
+.combine{
+    display:flex;
+}
+
+.btn{
+    border-radius:5px;
+    background-color:rgb(53, 53, 68);
+    width:100px;
+    color:white;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.list{
+    width:65%;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.list-item{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+    margin:8px;
+    color:black;
+    text-align: center;
+}
+
+.delete-btn{
+    background-color: red;
+    border:none;
+    width:2%;
+    height:0px;
+    color:red;
+    size: 2px;
+    display: inline;
+    margin-right: 15px;
+    padding-right: 20px;
+}
+
+.date{
+    padding:2px;
+    text-align:center;
+}
+
+.name{
+    text-align:center;
+    padding:2px;
+    width:6%;
+}
+
+.amount{
+    padding:2px;
+    text-align: center;
+}
+
+#type{
+    margin-left:40px ;
+}
+
+.list-item #date{
+    width:20%;
+}
+
+#delete{
+    visibility: hidden;
+}

@@ -1,0 +1,79 @@
+body{
+    min-height:87vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://www.bajajfinservmarkets.in/discover/wp-content/uploads/2022/02/MicrosoftTeams-image-4-1024x543.png");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    color:white;
+}
+
+.list-item{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+    margin:8px;
+    color:black;
+    text-align: center;
+}
+
+.list{
+    margin:1% 2%;
+}
+
+.delete-btn{
+    background-color: red;
+    border:none;
+    width:3%;
+    height:0px;
+    color:red;
+    size: 3px;
+    display: inline;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+
+.date{
+    width:7%;
+    padding:2px;
+    text-align:center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.name{
+    width:10%;
+    text-align:center;
+    padding-top: 10px;
+}
+
+.amount{
+    padding-top: 10px;
+    text-align: center;
+    width:10% 
+}
+
+#date,#type,#cost{
+    padding-right:5px;
+}
+
+.list-item #date{
+    width:20%;
+}
+
+#delete,.c{
+    visibility: hidden;
+}
+
+.header{
+    float:right;
+    display:flex;
+    padding-left: 5px;   
+}
+
+.header h3 a{
+    text-decoration: none;
+    color:white;
+}

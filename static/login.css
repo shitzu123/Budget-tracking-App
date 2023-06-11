@@ -1,0 +1,46 @@
+body{
+    min-height:65vh;
+    width:96%;
+    margin-right: 20%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://www.bajajfinservmarkets.in/discover/wp-content/uploads/2022/02/MicrosoftTeams-image-4-1024x543.png");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+.container{
+    background-color: rgb(134, 134, 162);
+    margin-top:15%;
+    margin-left:35%;
+    width:40%;
+    padding: 40px 40px 40px 70px;
+}
+
+.btn{
+    margin-left:160px;
+    background-color: rgb(79, 79, 106);
+    width:100px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(58, 58, 78);
+}
+
+p{
+    padding:10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    padding-top:10px;
+}
+
+#email, #password{
+    width: 400px;
+}
+
+a{
+    color:rgb(45, 45, 77);
+}
