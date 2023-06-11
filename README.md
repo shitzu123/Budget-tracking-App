@@ -30,6 +30,6 @@ The key features of this application includes
      amount INT,
      FOREIGN KEY(user_id) REFERENCES signup(id) ON DELETE SET NULL
    );</pre>
-4. After the above setup run the "app.py"  file and the open the web browser at http://localhost:5000
+4. After the above setup run the "app.py"  file and open in web browser at http://localhost:5000
 
  
