@@ -8,6 +8,6 @@ The key features of this application includes
 4. In case of any wrong transaction the user can also delete the transaction.
 5. The overall expenses history of the user can be found at one place to identify easily.
 # Installation Process
-1. Clone this Github repo using `git clone https://github.com/shitzu123/Budget-Tracking-App.git`
+1. Clone this Github repo using `git clone https://github.com/shitzu123/Budget-tracking-App.git`
 
  
