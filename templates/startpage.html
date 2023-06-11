@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #btn{
+                text-decoration: none;
+                color:white;
+            }
+            h1{
+                text-align:left;
+                color:white;
+                font-size: 60px;
+                font-weight: bold;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 25px;  
+                margin:45px;  
+            }
+            nav{
+                display:flex;
+                justify-content: space-between;
+                padding: 2% 6%;
+                align-items:center;
+            }
+            .nav-links{
+                flex:1;
+                text-align: right;
+            }
+            .nav-links ul li{
+                list-style: none;
+                display: inline-block;
+                padding:8px 12px;
+                position: relative;
+                height:20px;  
+            }
+            .nav-links ul li a{
+                color:white;
+                text-decoration: none;
+                font-size:18px;
+                font-weight: bold;    
+            }
+            body{
+                min-height:87vh;
+                width:100%;
+                background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://www.bajajfinservmarkets.in/discover/wp-content/uploads/2022/02/MicrosoftTeams-image-4-1024x543.png");
+                background-size: cover;
+                background-position: center;
+                position:relative;
+            } 
+        </style>
+        <title>Budget Tracker</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a  id="btn" href="{{url_for('register')}}">Signup</a></li>
+                    <li><a id="btn" href="{{url_for('login')}}">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <b><h1 class="display-2">BUDGET<br>TRACKING <br>APP</h1></b>
+    </body>
+</html>
