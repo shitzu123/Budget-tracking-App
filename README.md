@@ -1,5 +1,5 @@
 # Budget tracking App
-It is a simple web application to track monthly budget expenses.
+It is a simple web application to track monthly expenses.
 # Key Features
 The key features of this application includes
 1. The user can signup and login.
